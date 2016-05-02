@@ -1,7 +1,7 @@
 {
   "name": "Liuyutao.GitHub.io",
   "tagline": "",
-  "body": "---\r\nlayout: default\r\ntitle: 我的Blog\r\n---\r\n<h2>{{ page.title }}</h2>\r\n<p>最新文章</p>\r\n<ul>\r\n\t{% for post in site.posts %}\r\n\t<li>{{ post.date | date_to_string }} <a href=\"{{ site.baseurl }}{{ post.url }}\">{{ post.title }}</a></li>\r\n\t{% endfor %}\r\n</ul>",
+  "body": "jekyll test",
   "google": "",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
