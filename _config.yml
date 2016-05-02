@@ -1,1 +1,8 @@
 baseurl: /jekyll-demo
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
